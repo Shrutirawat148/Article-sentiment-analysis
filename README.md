@@ -25,10 +25,12 @@ For Entity Extraction, I used spaCy, a popular tool for natural language process
 
 For Sentiment Analysis, I used two methods:
   1.	TextBlob: This library provides a pretrained model to analyze sentiment. It gives two main measures:
+     
        o	Polarity: Ranges from -1 to +1, indicating whether the text is negative or positive.
+       
        o	Subjectivity: Ranges from 0.0 to 1.0, showing how much the text is based on personal opinions or factual information.
-  2.	Hugging Face Transformers: This library uses advanced models to classify the sentiment of the text as either positive, negative, or neutral.
-  3.	(see the file: sentiment.py).
+  3.	Hugging Face Transformers: This library uses advanced models to classify the sentiment of the text as either positive, negative, or neutral.
+  4.	(see the file: sentiment.py).
 
 Finally, all the extracted data, including named entities and sentiment analysis results, were stored in a database for later use.
 The entire assignment is in the file withdb.py.
